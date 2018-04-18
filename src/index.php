@@ -11,18 +11,18 @@
 				<!-- Basic Page Needs -->
 				<meta charset="utf-8">
 				<title>Dấu chân nhựa</title>
-				<meta name="description" content="Your first step to going plastic lite">
+				<meta name="description" content="Hãy cùng tôi đo lường số lượng vật dụng nhựa bạn sử dụng trong 1 tuần nhé!">
                 <link rel="image_src" href="img/screenshot.png" />
-                <meta property="og:title" content="Plastic Footprint Calculator" />
+                <meta property="og:title" content="Dấu chân nhựa của bạn là bao nhiêu?" />
                 <meta property="og:image" content="img/screenshot.png" />
-                <meta property="og:description" content="Your first step to going plastic lite" />
-                <meta name='author' content='Plastic Lite Singapore'/>
+                <meta property="og:description" content="Hãy cùng tôi đo lường số lượng vật dụng nhựa bạn sử dụng trong 1 tuần nhé!" />
+                <meta name='author' content='CHANGE VN'/>
 				<!-- Favicons-->
-				<link rel="shortcut icon" href="img/plastic-lite-sg-logo.jpg" type="image/x-icon"/>
-				<link rel="apple-touch-icon" type="image/x-icon" href="img/plastic-lite-sg-logo.jpg">
-				<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/plastic-lite-sg-logo.jpg">
-				<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/plastic-lite-sg-logo.jpg">
-				<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/plastic-lite-sg-logo.jpg">
+				<link rel="shortcut icon" href="img/logos/changevn.png" type="image/x-icon"/>
+				<link rel="apple-touch-icon" type="image/x-icon" href="img/changevn.png">
+				<link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/changevn.png">
+				<link rel="apple-touch-icon" type="image/x-icon" sizes="114x114" href="img/changevn.png">
+				<link rel="apple-touch-icon" type="image/x-icon" sizes="144x144" href="img/changevn.png">
 				<!-- Mobile Specific Metas -->
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
 				<!-- CSS -->
@@ -80,7 +80,10 @@
 				<div class="container margin-top-lg">
 					<div class="row">
 						<div class="col-md-12 main-title">
-                            <p class="lead"><b>Mỗi năm các đại dượng trên thế giới đang phải hứng chịu 8 đến 9 triệu tấn rác thải nhựa.</b> Bạn có biết rằng Việt Nam nằm trong 5 quốc gia thải rác nhựa nhiều nhất ra biển. Mỗi lần bạn và tôi sử dụng một vật dụng nhựa, chúng ta đang gián tiếp đóng góp vào hàng triệu tấn rác thải nhựa trên đại dương. Bạn có thắc mắc về lượng rác thải nhựa của mình đóng góp bao nhiêu trong hàng triệu tấn rác thải trên chưa?</p>
+                            <p class="lead"><b>Mỗi năm các đại dượng trên thế giới đang phải hứng chịu 8 đến 9 triệu tấn rác thải nhựa.</b></p>
+                            <p class="lead">Bạn có biết rằng Việt Nam nằm trong 5 quốc gia thải rác nhựa nhiều nhất ra biển?</p>
+                            <p class="lead">Mỗi lần bạn và tôi sử dụng một vật dụng nhựa, chúng ta đang gián tiếp đóng góp vào hàng triệu tấn rác thải nhựa trên đại dương.</p>
+                            <p class="lead">Bạn có thắc mắc về lượng rác thải nhựa của mình đóng góp bao nhiêu trong hàng triệu tấn rác thải trên chưa?</p>
                             <p class="lead bold"><b>Hãy cùng tôi đo lường số lượng vật dụng nhựa bạn sử dụng trong 1 tuần nhé!</b></p>
 						</div> 
                         <p class="text-center">
@@ -119,8 +122,7 @@
 				<footer>
 					<section class="container">
 						<div class="row">
-							<div class="col-md-8"><?php include 'templates/disclaimer.html'; ?></div>
-							<div class="col-md-4" id="contact"><?php include 'templates/about.html'; ?></div>
+							<div class="col-md-12" id="contact"><?php include 'templates/about.html'; ?></div>
 						</div>
 					</section>
 					<section id="footer_2">

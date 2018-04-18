@@ -1,9 +1,6 @@
 <?php
 
-$servername = "localhost";
-$username = "ryanphun_plastic";
-$password = "LovedEarth2016!";
-$dbname = "ryanphun_plastic_footprint";
+include 'api/db.php';
  
 // connect to the mysql database
 $link = mysqli_connect($servername, $username, $password, $dbname);

@@ -1,9 +1,6 @@
 <?php
 
-$servername = "localhost";
-$username = "ryanphun_plastic";
-$password = "LovedEarth2016!";
-$dbname = "ryanphun_plastic_footprint";
+include 'db.php';
 
 // get the HTTP method, path and body of the request
 $request = explode('/', trim($_SERVER['PATH_INFO'],'/'));

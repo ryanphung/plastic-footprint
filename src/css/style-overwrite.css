@@ -4,7 +4,7 @@ html{
 }
 
 .main-title h1 { margin-top: 50px; }
-.main-title p { margin-top: 0px; margin-bottom: 15px; }
+.main-title p { margin-top: 0px; margin-bottom: 15px; text-align: left; }
 #main { padding-bottom: 0px; }
 input.form-control, select.form-control, textarea.form-control { color: #333; }
 #middle-wizard { min-height: 400px; }
@@ -78,7 +78,7 @@ table#trash td {
 }
 .byo h2 {
     position: absolute;
-    top: 49px;
+    top: 63px;
     width: 100%;
 }
 .suggestion h3 { text-transform: uppercase; }

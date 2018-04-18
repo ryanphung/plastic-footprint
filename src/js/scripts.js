@@ -65,7 +65,7 @@ function processResults(){
                                               "<td style='min-width:120px;'><h2>X "+quantityPerYear+"</h2></td>"+
                                               "<td style='min-width:120px;' class='trash-remark'>"+remark+
                                               ("<br/>("+(totalWeight/1000)+"kg accummulated)</td>")+
-                                              "<td style='min-width:120px;' class='suggestion'>" +
+                                              "<td style='min-width:160px;' class='suggestion'>" +
                                                 (byo ? ("<h3 class='byo'>Tự đem<br/><strong>"+byo+"</strong>") : "") +
                                                 (slider.attr("data-refill") ? ("<h3 class='refill'>Choose<br/><strong>REFILLS</strong>") : "") +
                                                 (slider.attr("data-refuse") ? ("<h3 class='refuse'><strong>Từ chối</strong>") : "") +
@@ -149,7 +149,7 @@ function processResults(){
     }
     
     $.ajax({
-        url: "/api/api.php/entries",
+        url: "api/api.php/entries",
         method: "POST",
         contentType: "application/json",
         data: JSON.stringify(data.entry)
@@ -160,7 +160,7 @@ function processResults(){
         }
         console.log(data.values);
         $.ajax({
-            url: "/api/api.php/key_values",
+            url: "api/api.php/key_values",
             method: "POST",
             contentType: "application/json",
             data: JSON.stringify(data.values)
