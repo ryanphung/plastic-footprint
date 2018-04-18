@@ -4,7 +4,7 @@ html{
 }
 
 .main-title h1 { margin-top: 50px; }
-.main-title p { margin-top: 0px; }
+.main-title p { margin-top: 0px; margin-bottom: 15px; }
 #main { padding-bottom: 0px; }
 input.form-control, select.form-control, textarea.form-control { color: #333; }
 #middle-wizard { min-height: 400px; }
@@ -52,10 +52,10 @@ ul#footer-nav { margin-top: 10px; }
 #trash h1, #trash h2, #trash h3, #trash h4, #trash h5 { margin: 0px; }
 
 .welcome {
-    background-image: url("../img/eco-guardian.png");
+    background-image: url("../img/whale/whale.png");
     background-position: right top;
     background-repeat: no-repeat;
-    background-size: 22%;
+    background-size: 15%;
 }
 
 table#trash {

@@ -10,7 +10,7 @@
 			<head>
 				<!-- Basic Page Needs -->
 				<meta charset="utf-8">
-				<title>Plastic Footprint Calculator</title>
+				<title>Dấu chân nhựa</title>
 				<meta name="description" content="Your first step to going plastic lite">
                 <link rel="image_src" href="img/screenshot.png" />
                 <meta property="og:title" content="Plastic Footprint Calculator" />
@@ -65,7 +65,7 @@
 				<header>
 					<div class="container">
 						<div class="row">
-							<div class="col-md-12 col-xs-12 main-title"><h1>What is Your Plastic Footprint?</h1></div>
+							<div class="col-md-12 col-xs-12 main-title"><h1>Dấu chân nhựa của bạn là bao nhiêu?</h1></div>
 							<!--<div class="btn-responsive-menu"> <span class="bar"></span> <span class="bar"></span> <span class="bar"></span> </div>
 							<!--<nav class="col-md-7 col-xs-8" id="top-nav">
 								<ul>
@@ -80,10 +80,11 @@
 				<div class="container margin-top-lg">
 					<div class="row">
 						<div class="col-md-12 main-title">
-                            <p class="lead">Welcome! This is your first step to going Plastic-Lite.</p>
+                            <p class="lead"><b>Mỗi năm các đại dượng trên thế giới đang phải hứng chịu 8 đến 9 triệu tấn rác thải nhựa.</b> Bạn có biết rằng Việt Nam nằm trong 5 quốc gia thải rác nhựa nhiều nhất ra biển. Mỗi lần bạn và tôi sử dụng một vật dụng nhựa, chúng ta đang gián tiếp đóng góp vào hàng triệu tấn rác thải nhựa trên đại dương. Bạn có thắc mắc về lượng rác thải nhựa của mình đóng góp bao nhiêu trong hàng triệu tấn rác thải trên chưa?</p>
+                            <p class="lead bold"><b>Hãy cùng tôi đo lường số lượng vật dụng nhựa bạn sử dụng trong 1 tuần nhé!</b></p>
 						</div> 
                         <p class="text-center">
-                            <a href="#" data-toggle="modal" data-target="#whyModal">WHY GO PLASTIC-LITE?</a>
+                            <a href="#" data-toggle="modal" data-target="#whyModal">Tại sao nên giảm dùng nhựa?</a>
                         </p>
 					</div>
 				</div>
@@ -91,7 +92,7 @@
 					<!-- Start Survey container -->
 					<div id="survey_container">
 						<div id="top-wizard">
-							<strong>Progress <span id="location"></span></strong>
+							<strong>Quá trình <span id="location"></span></strong>
 							<div id="progressbar"></div>
 							<div class="shadow"></div>
 						</div>
@@ -101,17 +102,12 @@
                                 <div class="step row welcome"><?php include 'templates/step1.html'; ?></div>
                                 <div class="step row hidden"><?php include 'templates/step2.html'; ?></div>
                                 <div class="step row hidden"><?php include 'templates/step3.html'; ?></div>
-                                <div class="step row hidden"><?php include 'templates/step4.html'; ?></div>
-                                <div class="step row hidden"><?php include 'templates/step5.html'; ?></div>
-                                <div class="step row hidden"><?php include 'templates/step6.html'; ?></div>
-                                <div class="step row hidden"><?php include 'templates/step7.html'; ?></div>
-                                <div class="step row hidden"><?php include 'templates/step8.html'; ?></div>
                                 <div class="step submit hidden" id="complete"><?php include 'templates/results.html'; ?></div>
 							</div>
 							<!-- end middle-wizard -->
 							<div id="bottom-wizard">
-								<button type="button" name="backward" class="backward">Back</button>
-								<button type="button" name="forward" class="forward">Next </button>
+								<button type="button" name="backward" class="backward">Trở lại</button>
+								<button type="button" name="forward" class="forward">Tiếp theo</button>
 							</div>
 							<!-- end bottom-wizard -->
 						</form>
@@ -132,7 +128,7 @@
 							<div class="row">
 								<div class="col-md-6">
 									<ul id="footer-nav">
-										<li>Copyright© Plastic Lite Singapore</li>
+										<li>Copyright© CHANGE VN, Automatic Lab, Plastic Lite Singapore and Journey to Zero Waste Life in Singapore</li>
 										<!--<li><a href="#">Terms of Use</a></li>
 										<li><a href="#">Privacy</a></li>-->
 									</ul>
@@ -150,7 +146,7 @@
 						</div>
 					</section>
 				</footer>
-				<div id="toTop">Back to Top</div>
+				<div id="toTop">Trở lại đầu trang</div>
                 
 				<div class="modal fade" id="whyModal" tabindex="-1" role="dialog" aria-labelledby="whyModalLabel" aria-hidden="true">
 					<div class="modal-dialog">

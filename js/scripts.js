@@ -66,11 +66,11 @@ function processResults(){
                                               "<td style='min-width:120px;' class='trash-remark'>"+remark+
                                               ("<br/>("+(totalWeight/1000)+"kg accummulated)</td>")+
                                               "<td style='min-width:120px;' class='suggestion'>" +
-                                                (byo ? ("<h3 class='byo'>BYO<br/><strong>"+byo+"</strong>") : "") +
+                                                (byo ? ("<h3 class='byo'>Tự đem<br/><strong>"+byo+"</strong>") : "") +
                                                 (slider.attr("data-refill") ? ("<h3 class='refill'>Choose<br/><strong>REFILLS</strong>") : "") +
-                                                (slider.attr("data-refuse") ? ("<h3 class='refuse'><strong>REFUSE</strong>") : "") +
-                                                (slider.attr("data-reuse") ? ("<h3 class='reuse'><strong>REUSE</strong>") : "") +
-                                                (slider.attr("data-recycle") ? ("<h3 class='recycle'><strong>RECYCLE</strong>") : "") +
+                                                (slider.attr("data-refuse") ? ("<h3 class='refuse'><strong>Từ chối</strong>") : "") +
+                                                (slider.attr("data-reuse") ? ("<h3 class='reuse'><strong>Tái sử dụng</strong>") : "") +
+                                                (slider.attr("data-recycle") ? ("<h3 class='recycle'><strong>Tái chế</strong>") : "") +
                                               "</h3></td>"+
                                               "</tr>");
                     }
@@ -89,17 +89,17 @@ function processResults(){
                               "<th></th>"+
                               "<th></th>"+
                               "<th class='trash-remark'></th>"+
-                              "<th><h3>Suggestion:</h3></th>"+
+                              "<th><h3>Đề nghị:</h3></th>"+
                               "</tr>");
     }
     
     $("#userNickname").text($("input[name=nickname]").val().toUpperCase()+", ");
     
     var totalWeightKg = Math.round(totalWeight/100)/10;
-    $("#totalWeight").html("<u>"+totalWeightKg + "</u> KG");
+    $("#totalWeight").html("<u>"+totalWeightKg + "</u> kg");
     console.log("total weight = " + totalWeightKg);
     
-    $("#totalQuantity").html("<u>"+totalQuantity + "</u> pieces");
+    $("#totalQuantity").html("<u>"+totalQuantity + "</u> vật dụng");
     console.log("total quantity = " + totalQuantity);
     
     data.values.push({
